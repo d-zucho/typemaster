@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root {
+  /** colors */
+  --orange50: #ff9b62;
+  --orange100: #f16718;
+  --blue50: #7b8bad;
+  --blue100: #162542;
+  --gray: #e8eff2;
+  --white: #fff;
+
+  /** Typography */
+  --heading1-size: 56px;
+  --heading1-lineHeight: 56px;
+  --heading1-text-transform: capitalize;
+
+  --heading2-size: 32px;
+  --heading2-lineHeight: 36px;
+  --heading2-text-transform: capitalize;
+
+  --heading3-size: 24px;
+  --heading3-lineHeight: 28px;
+  --heading3-text-transform: capitalize;
+
+  --heading-weight: 900;
+
+  --body-fontSize: 16px;
+  --body-lineHeight: 26px;
+  --body-fontWeight: 500;
+}
+
+.btn {
+  font-size: var(--body-fontSize);
+  font-weight: var(--body-fontWeight);
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  border: none;
+  color: #fff;
+  transition: 200ms ease-in-out all;
+}
+
+.btn-1 {
+  background-color: var(--orange100);
+}
+
+.btn-1:hover {
+  background-color: var(--orange50);
+}
+
+.btn-2 {
+  background-color: var(--gray);
+  color: var(--blue100);
+}
+
+.btn-2:hover {
+  background-color: var(--blue100);
+  color: #fff;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
