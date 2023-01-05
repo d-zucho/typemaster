@@ -12,15 +12,15 @@
   /** Typography */
   --heading1-size: 56px;
   --heading1-lineHeight: 56px;
-  --heading1-text-transform: capitalize;
+  --heading1-text-transform: uppercase;
 
   --heading2-size: 32px;
   --heading2-lineHeight: 36px;
-  --heading2-text-transform: capitalize;
+  --heading2-text-transform: uppercase;
 
   --heading3-size: 24px;
   --heading3-lineHeight: 28px;
-  --heading3-text-transform: capitalize;
+  --heading3-text-transform: uppercase;
 
   --heading-weight: 900;
 
@@ -41,8 +41,13 @@ a {
   cursor: pointer;
 }
 
+.flex {
+  display: flex;
+}
+
 .btn {
   font-size: var(--body-fontSize);
+  line-height: var(--body-lineHeight);
   font-weight: 700;
   text-transform: uppercase;
   padding: 1rem 1.5rem;

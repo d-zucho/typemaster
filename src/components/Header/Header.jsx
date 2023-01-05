@@ -8,7 +8,7 @@ import './header.style.css'
 const Header = () => {
   return (
     <header>
-      <div className='container'>
+      <div className='container wrapper'>
         <Logo />
         <button className='btn btn-2'>Pre-Order Now</button>
       </div>
