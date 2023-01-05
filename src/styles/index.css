@@ -29,13 +29,25 @@
   --body-fontWeight: 500;
 }
 
+.wrapper {
+  max-width: 1120px;
+  width: min(90%, 1120px);
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .btn {
   font-size: var(--body-fontSize);
-  font-weight: var(--body-fontWeight);
+  font-weight: 700;
   text-transform: uppercase;
   padding: 1rem 1.5rem;
   border: none;
-  color: #fff;
+  border-radius: 0.5rem;
   transition: 200ms ease-in-out all;
 }
 
@@ -55,11 +67,4 @@
 .btn-2:hover {
   background-color: var(--blue100);
   color: #fff;
-}
-
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
