@@ -14,9 +14,9 @@ main {
 
 .hero__container {
   display: grid;
-
+  justify-content: space-between;
   gap: 2rem;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 40% 45%;
 }
 
 .hero__container__col--left {
@@ -40,4 +40,9 @@ main {
 
 .hero__container__col--right > img {
   width: 100%;
+  object-fit: cover;
+  min-height: 100%;
+  min-width: 100%;
+  max-width: 480px;
+  object-position: center right;
 }
